@@ -1,0 +1,50 @@
+{
+  "name": "@momsfriendlydevco/in-range",
+  "version": "1.0.0",
+  "description": "Numeric range checking",
+  "scripts": {
+    "lint": "eslint lib",
+    "test": "mocha"
+  },
+  "keywords": [
+    "number",
+    "range",
+    "math"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MomsFriendlyDevCo/In-Range.git"
+  },
+  "author": "Matt Carter <matt@mfdc.biz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MomsFriendlyDevCo/In-Range/issues"
+  },
+  "homepage": "https://github.com/MomsFriendlyDevCo/In-Range#readme",
+  "engineStrict": true,
+  "engines": {
+    "node": ">=16.14.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.35.0",
+    "mocha": "^10.2.0"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "es6": true,
+      "node": true,
+      "mocha": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 13,
+      "sourceType": "module"
+    }
+  }
+}
